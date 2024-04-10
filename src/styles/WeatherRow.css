@@ -1,0 +1,35 @@
+.cell-container {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    padding: 0px 5px;
+}
+
+.cell-hidy {
+    color: rgba(133, 136, 158, 1);
+}
+
+.cell-tiny {
+    font-size: 10px;
+}
+
+.cell-wind {
+    align-items: baseline;
+}
+
+@media (min-width: 440px) {
+    .cell-tt {
+        text-wrap: nowrap;
+    }
+}
+
+@media (max-width: 439px) {
+    .cell-tt {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btw {
+        display: none;
+    }
+}

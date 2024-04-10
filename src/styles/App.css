@@ -1,0 +1,66 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 1rem;
+    line-height: 15px;
+    color: #fff;
+    background-color: #0d6efd;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+#city-panel {
+    display: flex;
+    flex-direction: column;
+}
+
+#button-panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+@media (min-width: 440px) {
+    .header-container {
+        max-width: 800px;
+        padding: 20px;
+        margin: auto;
+        background-color: #99e2ca;
+        border-radius: 6px;
+    }
+
+    #button-panel {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 439px) {
+    body {
+        font-size: 10px;
+    }
+
+    .header-container {
+        padding: 10px;
+        width: 100%;
+        margin: 0px;
+        background-color: #99e2ca;
+        border-radius: 6px;
+    }
+
+    #button-panel {
+        margin: 5px;
+    }
+}

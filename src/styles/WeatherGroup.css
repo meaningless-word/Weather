@@ -1,0 +1,38 @@
+.day-week {
+    display: flex;
+    flex-direction: column;
+    color: rgba(133, 136, 158, 1);
+}
+
+.day-condition {
+    text-align: center;
+    width: 100%;
+    color: rgba(133, 136, 158, 1);
+}
+
+
+@media (min-width: 440px) {
+    .day-container {
+        display: flex;
+        align-items: center;
+        height: 80px;
+    }
+
+    .day-num {
+        font-size: 50px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 439px) {
+    .day-container {
+        display: flex;
+        align-items: center;
+        height: 40px;
+    }
+
+    .day-num {
+        font-size: 30px;
+        margin-right: 3px;
+    }
+}
