@@ -1,7 +1,7 @@
 @media (min-width: 440px) {
     .table-container {
-        max-width: 800px;
-        margin: auto;
+        margin: 0;
+        width: 100%;
     }
 }
 

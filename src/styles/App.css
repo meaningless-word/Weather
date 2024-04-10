@@ -34,10 +34,14 @@ body {
 }
 
 @media (min-width: 440px) {
-    .header-container {
+    #root {
         max-width: 800px;
-        padding: 20px;
         margin: auto;
+    }
+
+    .header-container {
+        width: 100%;
+        padding: 20px;
         background-color: #99e2ca;
         border-radius: 6px;
     }
@@ -52,10 +56,14 @@ body {
         font-size: 10px;
     }
 
-    .header-container {
-        padding: 10px;
+    #root {
         width: 100%;
         margin: 0px;
+    }
+
+    .header-container {
+        width: 100%;
+        padding: 10px;
         background-color: #99e2ca;
         border-radius: 6px;
     }
